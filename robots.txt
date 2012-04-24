@@ -1,4 +1,5 @@
 User-agent: *
-Disallow: /jwplayer
+Disallow: /font
+Disallow: /image/prettyPhoto
 Allow: /
 Host: vpopolam.ru
