@@ -1,0 +1,17 @@
+/* no JS warning */
+div#nojs {
+        position:absolute;
+        width:100%;
+        top:0px;
+        left:0px;
+        background: #ff0000;
+	font: 1em GNUTypewriter, Arial, Helvetica, sans-serif;
+	color: #fff; 
+	text-align: center;
+	z-index: 2;
+}
+#nojs a {
+	color: #fff;
+}
+#nojs:target {display: none;}
+/* no JS warning */

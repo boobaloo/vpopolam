@@ -1,0 +1,167 @@
+/*  
+    This CSS file for http://vpopolam.ru is copylefted by Koptev Oleg
+    Thanks to Lukasz Komsta and http://openfontlibrary.org for GNUTypewriter font! 
+*/
+
+/* resetting styles */
+body{padding:0;margin:0;font:13px Arial,Helvetica,Garuda,sans-serif;}
+h1,h2,h3,h4,h5,h6,ul,li,em,strong,pre,code{padding:0;margin:0;line-height:1em;font-size:100%;font-weight:normal;font-style: normal;}
+ul{list-style:none;}
+img{border:0;}
+p{margin:1em 0;}
+/* end of resetting styles */
+
+/* Fonts */
+
+@font-face {
+font-family: 'GNUTypewriter';
+src: url('../font/GNUTypewriterStandard.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'GNUTypewriter';
+src: url('../font/GNUTypewriterStandard.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/* Fonts end */
+
+html, body {
+   height:100%;
+   margin: 0;
+   padding: 0;
+   background-color: #000;
+   }
+	
+div#container {
+   position: relative;
+   width:940px; 
+   margin:0 auto;
+   height:auto !important; /* real browsers */
+   height:100%; /* IE6: treaded as min-height*/
+   min-height:100%; /* real browsers */
+   background: url(../image/paper1.jpg) repeat;
+   }
+
+div#header {
+   height:145px; 
+   padding:0 0 0 0; 
+   background: url(../image/stamp_new.png) no-repeat; 
+   }
+
+a#logo
+{   position: absolute;
+    top: 0;
+    left: 0;
+    width: 310px;
+    height: 145px;
+}
+
+a#logo span {display: none;}
+
+div#content {
+   padding:1em 1em 5em; /* bottom padding for footer */
+   margin-top: -15px;
+   }
+
+   p.news, p.default {
+      padding:0 1em;
+      font:1.7em 'GNUTypewriter',Arial,sans-serif;
+      text-align: center;
+   }
+   
+   p.news:hover {color: #802121;}
+
+div#footer {
+   position:absolute;
+   height:50px;
+   width:940px;
+   bottom:0; /* stick to bottom */
+   margin-right: 0px;
+}
+
+div#footer p {
+      padding:1em 1em 0 1em;
+      margin:0;
+      font:1em 'GNUTypewriter',Arial,sans-serif;
+      text-align: left;
+   }
+
+div.avatars {
+   width:765px;
+   margin:auto;
+   padding-top: 20px;
+   }
+div.avatars div {display:inline;}
+div.avatars img {margin: 0;padding: 0;border: 0;}
+div.avatars img:hover {cursor: help;}
+
+
+/* Навигация */
+#main_nav {padding:30px 10px 10px 340px;}
+#main_nav li {float: left; font:1.7em 'GNUTypewriter',Arial,sans-serif; margin: 0 20px 0 0;}
+#main_nav a {text-decoration: none; text-transform:uppercase;}
+#main_nav a:hover {background: url(../image/hover.png) repeat-x;}
+/* Навигация */
+
+#photo, #video {margin: 20px auto; text-align:center;}
+
+img.banner {
+   padding:0 0 0.5em 0;
+   float:right;
+   margin-right: 1em;
+   margin-top: -1.5em;}
+   
+h1 {font:2em 'GNUTypewriter',Arial,sans-serif; text-align: center; margin-bottom: 1em;}
+
+div#descr1,div#descr2,div#descr3 {
+   display:none;
+   text-align:left; 
+   width: 493px; 
+   border: none; 
+   margin: 47px auto; 
+   position: absolute; 
+   top: 188px; 
+   left: 350px; 
+   }
+   /* Quit button*/
+
+div#descr1 span,div#descr2 span,div#descr3 span {
+   width: 30px;
+   height: 30px; 
+   float: right; 
+   background: url(../image/exit.png) no-repeat top right; 
+   padding: 0 0 10px 10px;
+   }
+div#descr1 p,div#descr2 p,div#descr3 p {
+   font: 1.5em 'GNUTypewriter',Arial,sans-serif; 
+   letter-spacing: 0.05em;
+   text-align: left;
+   }
+   
+.media_captions {font:2em 'GNUTypewriter',Arial,sans-serif; text-align: center; margin: auto;}
+.contacts li {font:1.5em 'GNUTypewriter',Arial,sans-serif; margin:auto; text-align: center;}
+.contacts a,a:visited,a:link {text-decoration: none; color: #802121;}
+.contacts a:hover {background: url(../image/hover.png) repeat-x;}
+.out_links li {font:1.5em 'GNUTypewriter',Arial,sans-serif; margin:auto; text-align: center;}
+.out_links a,a:visited,a:link {text-decoration: none; color: #802121;}
+.out_links a:hover {background: url(../image/hover.png) repeat-x;}
+.music_content li {font:1.5em 'GNUTypewriter',Arial,sans-serif; margin:auto; text-align: center;}
+.music_content a,a:visited,a:link {text-decoration: none; color: #802121;}
+.music_content a:hover {background: url(../image/hover.png) repeat-x;}
+
+/* Override Yahoo webplayer button with custom ones */
+.ywp-page-btn, ywp-page-btn-play {
+    background-image: url(../image/play.png) !important;
+}
+.ywp-page-play-pause, .ywp-page-btn-play {
+    background-position: 0px 0px !important;
+}
+/* Override Yahoo webplayer button with custom ones */
+
+div#feedback {margin: auto; width: 300px;}
+#feedback strong, #feedback p, #feedback em {font:1em 'GNUTypewriter',Arial,sans-serif; margin:auto; text-align: center;}
+#feedback label, #feedback textarea, #feedback button {font:1.2em 'GNUTypewriter',Arial,sans-serif; text-align:left; display: block;}
+#feedback button {margin-left: 80px;}

@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.vpopolam\.ru$ [NC]
+RewriteRule ^(.*)$ http://vpopolam.ru/$1 [R=301,L]
+Addtype font/otf .otf
+Addtype font/ttf .ttf
+Addtype font/eot .eot
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/json font/otf font/ttf font/eot Header append Vary Accept-Encoding
+ErrorDocument 404 /404.php 
