@@ -67,6 +67,7 @@
 </span>
 <button type="submit">Телеграфировать</button>
 </form>
+<br/>
 <?php
   }
 ?>

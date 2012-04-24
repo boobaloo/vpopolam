@@ -1,3 +1,4 @@
+<span class="lang"><a href="/en/<?php echo basename ( $_SERVER['PHP_SELF']); ?>" title="English version">&gt;&gt;In English&lt;&lt;</a></span>
 <div id="main_nav">
       <ul class="navigation">
         <li><a href="index.php" title="Главная">Главная</a></li>

@@ -11,13 +11,13 @@ Contacts</title>
 
 <!-- Navigation -->
  <div id="header">
-  <a href="index.php" id="logo"><span>To mainpage</span></a>
+  <a href="index.php" id="logo"><span>To main page</span></a>
 <?php include("../includes/en/navigation.php"); ?>
   </div>
 <!-- Navigation -->
   
   <div id="content">
-<h1>You can contact us with many ways:</h1>
+<h1>You can contact us in many ways:</h1>
 <p class="default">Through feedback form <a id="displayText" href="javascript:toggle();">&lt;show&gt;</a></p> 
 <div id="toggleText" style="display: none"><?php include("../includes/en/feedback.php"); ?></div>
 

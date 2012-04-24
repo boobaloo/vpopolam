@@ -15,4 +15,3 @@
 <![endif]-->
 <title>&laquo;Впополам&raquo; &mdash; антигламурный шансон-кор ансамбль &mdash; 
 <?php  define('DIR_WS_INCLUDES', '/includes/');
-

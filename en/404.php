@@ -17,9 +17,9 @@
   
 <div id="content">
 <p class="default">
-</br></br><?php echo str_repeat("-",60); ?></br>Unfortunately, we have nothing at this URL. Please, use the navigation bar at the top of the page to reach existed destinations.
+</br></br><?php echo str_repeat("-",60); ?></br>Ahoy! Unfortunately, we have nothing at this URL. Please, use the navigation bar at the top of the page to reach existed destinations.
 </br><?php echo str_repeat("-",60); ?></br>
-<a href="/index.php">Go to the mainpage</a></br><?php echo str_repeat("-",60); ?></p>
+<a href="/index.php">Go to the main page</a></br><?php echo str_repeat("-",60); ?></p>
 </div>
   
 <?php include("../includes/en/footer.php"); ?>

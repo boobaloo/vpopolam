@@ -25,7 +25,7 @@ Mainpage</title>
         	<div class="avatar"><img src="../image/batman.jpg" title="Oleg" alt="Oleg Koptev" /></div>
         		<div class="descr1" id="descr1">
 <span class="quit">&nbsp;</span>
-<p>Oleg Koptev - bassist, sometimes-vocalist.</p>
+<p>Oleg Koptev - bassist, sometime-vocalist.</p>
      			</div>
      	  </div>
         
@@ -41,7 +41,7 @@ Mainpage</title>
           <div class="avatar"><img src="../image/rambo.jpg" title="Vova" alt="Vova Kozlovski" /></div>
              <div class="descr3" id="descr3">
 <span class="quit">&nbsp;</span>
-<p>Vladimir Kozlovski - our drummer.</p>
+<p>Vladimir Kozlovski - our great drummer.</p>
              </div>
         </div>
         

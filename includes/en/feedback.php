@@ -67,6 +67,7 @@
 </span>
 <button type="submit">Send it to us</button>
 </form>
+<br/>
 <?php
   }
 ?>

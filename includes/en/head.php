@@ -1,8 +1,8 @@
 <meta charset="utf-8" />
-<meta property="og:title" content="Vpopolam — antiglamourous chânsone-core band"/>
+<meta property="og:title" content="Vpopolam — antiglamourous chanson-core band"/>
 <meta property="og:description" content="Official website of Vpopolam band"/>
 <meta property="og:image" content="http://vpopolam.ru/image/stamp_new_en.png"/>
-<meta name="title" content="Vpopolam — antiglamourous chânsone-core band" />
+<meta name="title" content="Vpopolam — antiglamourous chanson-core band" />
 <meta name="description" content="Official website of Vpopolam band" />
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="../css/nojs.css" type="text/css" media="all" />
