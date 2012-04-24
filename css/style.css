@@ -100,7 +100,7 @@ div.avatars img:hover {cursor: help;}
 
 
 /* Навигация */
-#main_nav {padding:30px 10px 10px 340px;}
+#main_nav {padding:40px 10px 10px 340px;}
 #main_nav li {float: left; font:1.7em 'GNUTypewriter',Arial,sans-serif; margin: 0 20px 0 0;}
 #main_nav a {text-decoration: none; text-transform:uppercase;}
 #main_nav a:hover {background: url(../image/hover.png) repeat-x;}
@@ -165,3 +165,5 @@ div#feedback {margin: auto; width: 300px;}
 #feedback strong, #feedback p, #feedback em {font:1em 'GNUTypewriter',Arial,sans-serif; margin:auto; text-align: center;}
 #feedback label, #feedback textarea, #feedback button {font:1.2em 'GNUTypewriter',Arial,sans-serif; text-align:left; display: block;}
 #feedback button {margin-left: 80px;}
+
+span.lang {font:1em 'GNUTypewriter',Arial,sans-serif; margin:10px 20px 0 0; float: right;}
