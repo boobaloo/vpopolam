@@ -10,6 +10,7 @@
 <!-- Навигация -->
  <div id="header">
   <a href="index.php" id="logo"><span>На главную</span></a>
+    <?php $e = 'active'; ?>
 <?php include("includes/navigation.php"); ?>
   </div>
 <!-- Навигация -->
