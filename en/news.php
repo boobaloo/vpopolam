@@ -19,7 +19,7 @@ News</title>
   <div id="content">
   <h1>Fresh news from our band:</h1>
 <p class="news"><?php echo str_repeat("-",60); ?></br>
-There are no news at the moment. But soon this will change!</br>
+    We're release our mini album on 8 of May at <a href="http://blocsonic.com" title="blocSonic" />blocSonic</a> - great netlabel full of super Creative Commons licensed music, located in Maine, USA</br>
 <?php echo str_repeat("-",60); ?> 
 
 </p>

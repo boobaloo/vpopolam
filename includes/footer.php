@@ -1,5 +1,5 @@
 <div id="footer">
-  <p>&copy; Впополам - 2012</p>
+  <p>(c) Впополам - 2012</p>
 
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru" title="Аудио/видео и фотоматериалы лицензированы CC BY-NC-SA 3.0" target="_blank" rel="license">
 <img class="banner" src="image/license.png" alt="Creative Commons License">
