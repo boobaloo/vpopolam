@@ -31,7 +31,7 @@ div.ywp-common-tooltip {display:none;}
             <li><a href="./audio/bespontovy.mp3" title="Беспонтовы">Беспонтовы</a></li>
             <li><a href="./audio/nishtyaki.mp3" title="Ништяки">Ништяки</a></li>
             <li><a href="./audio/dovesok.mp3" title="Довесок">Довесок</a></li>
-            <li><a href="./audio/bespontovy_remix.mp3" title="Беспонтовы(ремикс)">Беспонтовы &lt;дискотека-ремикс&gt;</a></li>
+            <li><a href="./audio/bespontovy_remix.mp3" title="Беспонтовы (ремикс)">Беспонтовы &lt;дискотека-ремикс&gt;</a></li>
             </br>
             <li><a href="./audio/vpopolam_gryaznyj_albom.zip" title="Альбом в формате MP3 (около 30 Мб)">Скачать альбом в MP3</a></li>
             <li><a href="http://depositfiles.com/files/71sskpvhd" title="Альбом в lossless-формате FLAC (около 130 Мб)">Скачать альбом в FLAC &lt;depositfiles&gt;</a></li>          
