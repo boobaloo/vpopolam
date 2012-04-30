@@ -155,6 +155,7 @@ div#descr1 p,div#descr2 p,div#descr3 p {
 .music_content li {font:1.5em 'GNUTypewriter',Arial,sans-serif; margin:auto; text-align: center;}
 .music_content a,a:visited,a:link {text-decoration: none; color: #802121;}
 .music_content a:hover {background: url(../image/hover.png) repeat-x;}
+div.cover {position: absolute; top: 220px; left: 80px;}
 
 /* Override Yahoo webplayer button with custom ones */
 .ywp-page-btn, ywp-page-btn-play {

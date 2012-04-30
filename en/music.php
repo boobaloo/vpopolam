@@ -22,11 +22,12 @@ div.ywp-common-tooltip {display:none;}
 
   <div id="content">
   <div id="music">
+            <div class="cover"><img src="../image/cover_en.png" title="Cover" /> </div>
   <h1>Music</h1>
          <ul class="music_content">
             <li><a href="../audio/ne_parish.mp3" title="Ne parish">Ne parish</a></li>
-				<li><a href="../audio/natasha.mp3" title="Natasha">Natasha</a></li>
-				<li><a href="../audio/gop_stop.mp3" title="Gop-Stop">Gop-Stop</a></li>
+            <li><a href="../audio/natasha.mp3" title="Natasha">Natasha</a></li>
+            <li><a href="../audio/gop_stop.mp3" title="Gop-Stop">Gop-Stop</a></li>
             <li><a href="../audio/bespontovy.mp3" title="Bespontovy">Bespontovy</a></li>
             <li><a href="../audio/nishtyaki.mp3" title="Nishtyaki">Nishtyaki</a></li>
             <li><a href="../audio/dovesok.mp3" title="Dovesok(outro)">Dovesok &lt;outro&gt;</a></li>
@@ -61,7 +62,7 @@ div.ywp-common-tooltip {display:none;}
     {
         autoplay: false,
         displaystate: 1,
-        volume: 0.5,
+        volume: 0.5
     };
 </script>
 <script type="text/javascript" src="http://webplayer.yahooapis.com/player.js"></script> 

@@ -23,6 +23,7 @@ div.ywp-common-tooltip {display:none;}
 
   <div id="content">
   <div id="music">
+      <div class="cover"><img src="./image/cover_ru.png" title="Обложка" /> </div>
   <h1>Музыка</h1>
          <ul class="music_content">
             <li><a href="./audio/ne_parish.mp3" title="Не паришь">Не паришь</a></li>
