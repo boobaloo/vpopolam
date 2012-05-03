@@ -12,7 +12,7 @@ Contacts</title>
 <!-- Navigation -->
  <div id="header">
   <a href="index.php" id="logo"><span>To main page</span></a>
-<?php include("../includes/en/navigation.php"); ?>
+<?php $page=basename(__FILE__); include("../includes/en/navigation.php"); ?>
   </div>
 <!-- Navigation -->
   

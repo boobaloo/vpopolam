@@ -10,7 +10,7 @@
 <!-- Навигация -->
  <div id="header">
   <a href="index.php" id="logo"><span>На главную</span></a>
-<?php include("includes/navigation.php"); ?>
+<?php $page= basename(__FILE__); include("includes/navigation.php"); ?>
   </div>
 <!-- Навигация -->
   

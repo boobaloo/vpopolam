@@ -11,7 +11,7 @@
 <!-- Навигация -->
  <div id="header">
   <a href="index.php" id="logo"><span>На главную</span></a>
-<?php include("../includes/en/navigation.php"); ?>
+<?php $page=basename(__FILE__); include("../includes/en/navigation.php"); ?>
   </div>
 <!-- Навигация -->
   

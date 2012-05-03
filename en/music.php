@@ -16,7 +16,7 @@ div.ywp-common-tooltip {display:none;}
 <!-- Navigation -->
  <div id="header">
   <a href="index.php" id="logo"><span>To the mainpage</span></a>
-<?php include("../includes/en/navigation.php"); ?>
+<?php $page=basename(__FILE__); include("../includes/en/navigation.php"); ?>
   </div>
 <!-- Navigation -->
 
