@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php include("includes/head.php"); ?>
-<title>Впополам &mdash; антигламурный шансон-кор ансамбль &mdash; Новости</title>
+Dummy</title>
 </head>
 
 <body class="bodystyle">
@@ -18,9 +18,29 @@
   
   <div id="content">
 
+
 <?php
-$total_articles_number = 79;   //общее количество статей
-$articles_per_page=10; // количество статей на странице
+// Чтение и вывод новостей из файла news.txt
+$fp = fopen('news.txt','r');
+if (!$fp) {echo 'ERROR: Unable to open file.'; exit;}
+$loop = 0;
+while (!feof($fp)) {
+$loop++;
+$line = fgets($fp, 1024); //use 2048 if very long lines
+$field[$loop] = explode ('<->', $line); // Delimeter is <->
+
+if ($field[$loop][0]!=='') {
+echo  
+    '<p class="news">'.$field[$loop][0].'<br>'.str_repeat("-",60).'</p>';
+    $total_articles_number++; //общее количество статей  
+
+$fp++;}
+}
+fclose($fp);
+// Разбивка на страницы
+
+echo $total_articles_number;
+$articles_per_page=5; // количество статей на странице
 //получаем количество страниц
 $total_pages = ceil($total_articles_number/$articles_per_page);
 
