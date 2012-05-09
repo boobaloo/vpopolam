@@ -1,5 +1,5 @@
 <div id="footer">
-  <p>(c) Впополам - 2012</p>
+  <p>&lt;c&gt; Впополам - 2012</p>
 
 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru" title="Аудио/видео и фотоматериалы лицензированы CC BY-NC-SA 3.0" target="_blank" rel="license">
 <img class="banner" src="image/license.png" alt="Creative Commons License">
@@ -13,14 +13,6 @@
 
 <a href="#" onclick="popUp=window.open('http://vk.com/share.php?url=<?php echo('http://' . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"]); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=400');popUp.focus();return false" href="http://vk.com" rel="nofollow"><img src="/image/vkontakte.png" class="banner" alt="Вконтакте link" title="Поделиться Вконтакте"/></a> 
 
-<!-- <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            class="banner"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            title="Правильный CSS!"
-            alt="Правильный CSS!" />
-</a>
--->
 </div>
 <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
 <script type="text/javascript" src="js/js.js"></script>

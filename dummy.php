@@ -18,53 +18,55 @@ Dummy</title>
   
   <div id="content">
 
-
+<h1>Новости от "Впополам":</h1>
 <?php
-// Чтение и вывод новостей из файла news.txt
+
+//Read the news.txt
+
 $fp = fopen('news.txt','r');
-if (!$fp) {echo 'ERROR: Unable to open file.'; exit;}
+if (!$fp) {echo 'Ошибка: Не могу открыть файл.'; exit;}
 $loop = 0;
 while (!feof($fp)) {
 $loop++;
 $line = fgets($fp, 1024); //use 2048 if very long lines
-$field[$loop] = explode ('<->', $line); // Delimeter is <->
-
-if ($field[$loop][0]!=='') {
-echo  
-    '<p class="news">'.$field[$loop][0].'<br>'.str_repeat("-",60).'</p>';
-    $total_articles_number++; //общее количество статей  
-
+$field[$loop] = explode ('<->', $line); // Delimiter is <->
 $fp++;}
-}
 fclose($fp);
-// Разбивка на страницы
 
-echo $total_articles_number;
-$articles_per_page=5; // количество статей на странице
-//получаем количество страниц
-$total_pages = ceil($total_articles_number/$articles_per_page);
+//Begin pagination and output
 
-// запускаем цикл - количество итераций равно количеству страниц
-for ($i=0; $i<$total_pages; $i++){
-// получаем значение $from (как $page_number) 
-//для использования в формировании ссылки
-$page_number=$i*$articles_per_page;
-// если $page_number (фактически это проверка того является ли $from текущим) 
-//не соответствует текущей странице,
-// выводим ссылку на страницу со значением $from равным $page_number
-if ($page_number!=$from) echo 
-"<a href='".$PHP_SELF."?from=".$page_number."'> ".($i+1)." </a>";
-// иначе просто выводим номер страницы - данная строка необязательна,
-// пропустив ее вы просто получите линк на текущую страницу
-else echo $i+1; 
-// если page_number - текущая страница - ничего не выводим (ссылку не делаем)
-}
+        // Include the pagination class
+        include 'includes/pagination.php';
+        
+        // If we have an array with items
+        if (count($field)) {
+          // Create the pagination object
+          $pagination = new pagination($field, (isset($_GET['page']) ? $_GET['page'] : 1), 9);
+          // Decide if the first and last links should show
+          $pagination->setShowFirstAndLast(true);
+          // You can overwrite the default seperator
+          $pagination->setMainSeperator(' | ');
+          // Parse through the pagination class
+          $productPages = $pagination->getResults();
+          // If we have items 
+          if (count($productPages) != 0) {
+            // Create the page numbers
+            $pageNumbers = '<div class="numbers">'.$pagination->getLinks($_GET).'</div>';
+            // Loop through all the items in the array
+            foreach ($productPages as $productArray) {
+              // Show the information about the item
+                 if ($productArray[0] !== '') {
+              echo '<div class="news_wrapper"><p class="news">'.$productArray[0].'<br></p></div>';
+                  }
+            }
+            // print out the page numbers beneath the results
+            echo $pageNumbers;
+          }
+        }
+
 ?>
 
-  </div>
-
-
-
+</div>
 </div>
 </body>
 </html>

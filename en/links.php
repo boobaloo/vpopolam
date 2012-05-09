@@ -20,7 +20,7 @@ Links</title>
       <h1>Few links to cool resources &lt;russian mainly&gt;:</h1>
     <ul class="out_links">
     <li><a href="http://pletnev-records.ru/">&lt; Yuriy Pletnev recording studio &gt;</a></li>
-    <li><a href="http://bryansk.kassi.eu/">&lt; Kassi in Bryansk — cool project for resources sharing &gt;</a></li>
+    <li><a href="http://bryansk.kassi.eu/">&lt; Kassi in Bryansk - cool project for resources sharing &gt;</a></li>
     </ul>
   </div>
   

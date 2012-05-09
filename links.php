@@ -18,7 +18,7 @@
     <h1>Немного ссылок на всякое:</h1>
     <ul class="out_links">
     <li><a href="http://pletnev-records.ru/">&lt; Студия звукозаписи Юрия Плетнёва &gt;</a></li>
-    <li><a href="http://bryansk.kassi.eu/">&lt; Kassi — отличная доска объявлений Брянска! &gt;</a></li>
+    <li><a href="http://bryansk.kassi.eu/">&lt; Kassi - отличная доска объявлений Брянска! &gt;</a></li>
     </ul>
   </div>
   

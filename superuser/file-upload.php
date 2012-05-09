@@ -32,31 +32,6 @@ define('RENAME_FILE', false);
 // sample strings: aaa, my, etc.
 define('APPEND_STRING', '');
 
-// Need uploads log? Logs would be saved in the MySql database.
-define('DO_LOG', false);
-
-// MySql data (in case you want to save uploads log)
-define('DB_HOST','localhost'); // host, usually localhost
-define('DB_DATABASE','mydb'); // database name
-define('DB_USERNAME','myusername'); // username
-define('DB_PASSWORD','password-here'); // password
-
-/* NOTE: when using log, you have to create mysql table first for this script.
-Copy paste following into your mysql admin tool (like PhpMyAdmin) to create table
-If you are on cPanel, then prefix _uploads_log on line 205 with your username, so it would be like myusername_uploads_log
-
-CREATE TABLE _uploads_log (
-  log_id int(11) unsigned NOT NULL auto_increment,
-  log_filename varchar(128) default '',
-  log_size int(10) default 0,
-  log_ip varchar(24) default '',
-  log_date timestamp,
-  PRIMARY KEY  (log_id),
-  KEY (log_filename)
-);
-
-*/
-
 ####################################################################
 ###  END OF SETTINGS.   DO NOT CHANGE BELOW
 ####################################################################
@@ -203,32 +178,6 @@ else {
       $errors[] = "Could not upload file (6).";
       break;
     }
-
-    if (DO_LOG) {
-      // Establish DB connection
-      $link = @mysql_connect(DB_HOST, DB_USERNAME, DB_PASSWORD);
-      if (!$link) {
-        $errors[] = "Could not connect to mysql.";
-        break;
-      }
-      $res = @mysql_select_db(DB_DATABASE, $link);
-      if (!$res) {
-        $errors[] = "Could not select database.";
-        break;
-      }
-      $m_ip = mysql_real_escape_string($_SERVER['REMOTE_ADDR']);
-      $m_size = $filesize;
-      $m_fname = mysql_real_escape_string($dest_filename);
-      $sql = "insert into _uploads_log (log_filename,log_size,log_ip) values ('$m_fname','$m_size','$m_ip')";
-      $res = @mysql_query($sql);
-      if (!$res) {
-        $errors[] = "Could not run query.";
-        break;
-      }
-      @mysql_free_result($res);
-      @mysql_close($link);
-    } // if (DO_LOG)
-
 
     // redirect to upload success url
     $filenameout = $_FILES['filename']['name'];

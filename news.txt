@@ -1,21 +1,2 @@
 <->
-Some news here bla-bla-bla
-<->
-<img src="image/batman.jpg" title="Олег" alt="Олег Коптев" />
-<->
-Second news
-<->
-Second news
-<->
-Second news
-<->
-Second news
-<->
-Second news
-<->
-Second news
-<->
-<a href="#">Link</a>
-<->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer velit tellus, sodales id vestibulum quis, posuere vitae eros. Proin diam augue, tristique quis venenatis id, cursus ac turpis. Phasellus lacinia enim quis nulla interdum ultrices. Phasellus sed nisi eros. Praesent varius, est ac ultrices luctus, tellus nunc tempus nisl, sit amet ullamcorper lacus eros quis turpis. In rutrum vehicula sem ac convallis. Donec magna risus, pulvinar et venenatis eu, tincidunt sit amet ligula. Morbi lobortis tempor tellus, vel accumsan lectus dictum vel. Duis mollis elementum urna, vel fringilla eros volutpat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer porta aliquam mi sed vulputate. Praesent at gravida urna. Nam iaculis imperdiet nibh, et consequat augue ultrices nec. Praesent aliquam, elit a porta scelerisque, turpis nisi iaculis enim, sit amet venenatis nulla eros vel justo. Pellentesque arcu ipsum, aliquam ut volutpat vitae, tincidunt in diam. 
-<->
+8 мая наш мини-альбом выходит на нетлейбле <a href="http://blocsonic.com" title="blocSonic" />blocSonic</a> - отличном ресурсе с великолепными релизами, расположенным в штате Мэн, США. Мы рады, что наша музыка нравится людям не только в России!

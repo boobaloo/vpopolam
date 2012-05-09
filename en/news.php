@@ -17,12 +17,53 @@ News</title>
 <!-- Navigation -->
   
   <div id="content">
-  <h1>Fresh news from our band:</h1>
-<p class="news"><?php echo str_repeat("-",60); ?></br>
-    We're release our mini album on 8 of May at <a href="http://blocsonic.com" title="blocSonic" />blocSonic</a> - great netlabel full of super Creative Commons licensed music, located in Maine, USA</br>
-<?php echo str_repeat("-",60); ?> 
+  <h1>Some news from "Vpopolam":</h1>
+<?php
 
-</p>
+//Read the news.txt
+
+$fp = fopen('news_en.txt','r');
+if (!$fp) {echo 'Error: Couldn\'t open file!'; exit;}
+$loop = 0;
+while (!feof($fp)) {
+$loop++;
+$line = fgets($fp, 1024); //use 2048 if very long lines
+$field[$loop] = explode ('<->', $line); // Delimiter is <->
+$fp++;}
+fclose($fp);
+
+//Begin pagination and output
+
+        // Include the pagination class
+        include '../includes/pagination.php';
+        
+        // If we have an array with items
+        if (count($field)) {
+          // Create the pagination object
+          $pagination = new pagination($field, (isset($_GET['page']) ? $_GET['page'] : 1), 9);
+          // Decide if the first and last links should show
+          $pagination->setShowFirstAndLast(true);
+          // You can overwrite the default seperator
+          $pagination->setMainSeperator(' | ');
+          // Parse through the pagination class
+          $productPages = $pagination->getResults();
+          // If we have items 
+          if (count($productPages) != 0) {
+            // Create the page numbers
+            $pageNumbers = '<div class="numbers">'.$pagination->getLinks($_GET).'</div>';
+            // Loop through all the items in the array
+            foreach ($productPages as $productArray) {
+              // Show the information about the item
+                 if ($productArray[0] !== '') {
+              echo '<div class="news_wrapper"><p class="news">'.$productArray[0].'<br></p></div>';
+                  }
+            }
+            // print out the page numbers beneath the results
+            echo $pageNumbers;
+          }
+        }
+
+?>
   </div>
 
 <?php include("../includes/en/footer.php"); ?>

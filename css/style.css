@@ -71,6 +71,7 @@ div#content {
       font:1.7em 'GNUTypewriter',Arial,sans-serif;
       text-align: center;
    }
+   p.news {text-align: justify;}
 
 div#footer {
    position:absolute;
@@ -170,3 +171,9 @@ div#feedback {margin: auto; width: 300px;}
 #feedback button {margin-left: 80px;}
 
 span.lang {font:1em 'GNUTypewriter',Arial,sans-serif; margin:10px 20px 0 0; float: right;}
+
+/* News */
+div.numbers {margin-top: 1em; text-align: center;}
+div.numbers a {font:2em 'GNUTypewriter',Arial,sans-serif;}
+div.news_wrapper {width: 800px; margin:auto; padding-bottom: 1px; background: url(/image/breakup.png) no-repeat center bottom;}
+p.news img {float: left; margin-right: 1em;}
