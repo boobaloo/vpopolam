@@ -33,8 +33,8 @@ div.ywp-common-tooltip {display:none;}
             <li><a href="../audio/dovesok.mp3" title="Dovesok(outro)">Dovesok &lt;outro&gt;</a></li>
             <li><a href="../audio/bespontovy_remix.mp3" title="Bespontovy(remix)">Bespontovy &lt;dance-remix&gt;</a></li>
             </br>
-            <li><a href="../audio/vpopolam_gryaznyj_albom.zip" title="Full album in MP3 (about 30 Mb)">Download full album in MP3</a></li>
-            <li><a href="http://depositfiles.com/files/71sskpvhd" title="Full album in lossless-format FLAC (about 130 Mb)">Download full album in FLAC &lt;depositfiles&gt;</a></li>          
+            <li><a href="../audio/vpopolam_gryaznyj_albom.zip" title="Full album in MP3 (about 30 Mb)">Download full album in MP3</a><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li>
+            <li><a href="http://depositfiles.com/files/71sskpvhd" title="Full album in lossless-format FLAC (about 130 Mb)">Download full album in FLAC &lt;depositfiles&gt;</a><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li>          
          </ul>
 <div id="photo">
 <h1>Photos</h1>

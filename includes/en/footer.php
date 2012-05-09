@@ -1,7 +1,7 @@
 <div id="footer">
   <p>&lt;c&gt; Vpopolam - 2012</p>
 
-<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en" title="Audio/video and photos licensed under CC BY-NC-SA 3.0" target="_blank" rel="license">
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en" title="Audio/video and photos licensed under CC BY-NC-SA 3.0 if other not mentioned" target="_blank" rel="license">
 <img class="banner" src="../image/license.png" alt="Creative Commons License">
 </a>
 
