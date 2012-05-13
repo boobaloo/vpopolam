@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="../css/nojs.css" type="text/css" media="all" />
 <link rel="stylesheet" href="../css/prettyPhoto.css" type="text/css" media="all" />
+<meta name="wot-verification" content="3a0622ce0a5f084d8516"/> 
 <link rel="icon" type="image/png" href="../favicon.png" />
 <link rel="shortcut icon" href="../favicon.ico" />
 <link rel="image_src" href="_http://vpopolam.ru/image/stamp_new_en.png" />
@@ -15,7 +16,7 @@
 <![endif]-->
 <style type="text/css">
     div#header {
-   background: url(../image/stamp_new_en.png) no-repeat; !important
+   background: url(../image/stamp_new_en.png) no-repeat !important;
    }
 </style>
-<title>&laquo;Vpopolam&raquo; &mdash; antiglamourous chanson-core band &mdash; 
+<title>"Vpopolam" &mdash; antiglamourous chanson-core band &mdash; 

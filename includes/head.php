@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/nojs.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all" />
+<meta name="wot-verification" content="3a0622ce0a5f084d8516"/> 
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="image_src" href="_http://vpopolam.ru/image/stamp_new.png" />
