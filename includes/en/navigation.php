@@ -1,4 +1,4 @@
-<span class="lang"><a href="../<?php echo basename ( $_SERVER['PHP_SELF']); ?>" title="Русская версия">&gt;&gt;По-русски&lt;&lt;</a></span>
+<span class="lang"><a href="../<?php echo basename ( $_SERVER['PHP_SELF']); ?>" title="Русская версия"><?php echo str_repeat('&gt;', 32); ?>ПО-РУССКИ<?php echo str_repeat('&lt;', 32); ?></a></span>
 
 <div id="main_nav">
       <ul class="navigation">

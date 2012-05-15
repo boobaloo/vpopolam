@@ -1,4 +1,4 @@
-<span class="lang"><a href="/en/<?php echo basename ( $_SERVER['PHP_SELF']); ?>" title="English version">&gt;&gt;In English&lt;&lt;</a></span>
+<span class="lang"><a href="/en/<?php echo basename ( $_SERVER['PHP_SELF']); ?>" title="English version"><?php echo str_repeat('&gt;', 32); ?>IN ENGLISH<?php echo str_repeat('&lt;', 32); ?></a></span>
 <div id="main_nav">
       <ul class="navigation">
         <li <?php if($page=="index.php"){echo "class=\"active\"";} ?> ><a href="index" title="Главная">Главная</a></li>

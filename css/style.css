@@ -170,7 +170,7 @@ div#feedback {margin: auto; width: 300px;}
 #feedback label, #feedback textarea, #feedback button {font:1.2em 'GNUTypewriter',Arial,sans-serif; text-align:left; display: block;}
 #feedback button {margin-left: 80px;}
 
-span.lang {font:1em 'GNUTypewriter',Arial,sans-serif; margin:10px 20px 0 0; float: right;}
+span.lang {font:1em 'GNUTypewriter',Arial,sans-serif; margin:10px 20px 0 0; float: right; padding-right: 1em;}
 
 /* News */
 div.numbers {margin-top: 1em; text-align: center;}
