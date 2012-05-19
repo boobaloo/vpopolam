@@ -22,7 +22,7 @@ div.ywp-common-tooltip {display:none;}
 
   <div id="content">
   <div id="music">
-            <div class="cover"><img src="../image/cover_en.png" title="Cover" /> </div>
+            <div class="cover"><a href="../photo/cover_en.jpg" rel="prettyPhoto[pp_gal]" title="Cover"><img src="../image/cover_en.png" title="Cover" /></a></div>
   <h1>Music</h1>
          <ul class="music_content">
             <li><a href="../audio/ne_parish.mp3" title="Ne parish">Ne parish</a></li>

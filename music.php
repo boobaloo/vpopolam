@@ -22,7 +22,7 @@ div.ywp-common-tooltip {display:none;}
 
   <div id="content">
   <div id="music">
-      <div class="cover"><img src="./image/cover_ru.png" title="Обложка" /> </div>
+      <div class="cover"><a href="photo/cover_ru.jpg" rel="prettyPhoto[pp_gal]" title="Обложка"><img src="./image/cover_ru.png" alt="Обложка" /></a></div>
   <h1>Музыка</h1>
          <ul class="music_content">
             <li><a href="./audio/ne_parish.mp3" title="Не паришь">Не паришь</a></li>
@@ -31,7 +31,7 @@ div.ywp-common-tooltip {display:none;}
             <li><a href="./audio/bespontovy.mp3" title="Беспонтовы">Беспонтовы</a></li>
             <li><a href="./audio/nishtyaki.mp3" title="Ништяки">Ништяки</a></li>
             <li><a href="./audio/dovesok.mp3" title="Довесок">Довесок</a></li>
-            <li><a href="./audio/bespontovy_remix.mp3" title="Беспонтовы (ремикс)">Беспонтовы &lt;дискотека-ремикс&gt;</a></li>
+            <li><a href="./audio/bespontovy_remix.mp3" title="Беспонтовы (ремикс) - спасибо Лексеичу!">Беспонтовы &lt;дискотека-ремикс&gt;</a></li>
             </br>
             <li><a href="http://blocsonic.com/releases/archiveclick/slug/blocsonic-maxbloc-bsmx0032--all-tracks-320kbs-mp3-includes-pdf-booklet" title="Альбом в формате MP3">Скачать альбом в MP3 &lt;320kbps&gt;+обложка+буклет</a><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li>
             <li><a href="http://blocsonic.com/releases/archiveclick/slug/blocsonic-maxbloc-bsmx0032--all-tracks-ogg-includes-pdf-booklet" title="Альбом в формате OGG">Скачать альбом в OGG+обложка+буклет</a><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li> 
