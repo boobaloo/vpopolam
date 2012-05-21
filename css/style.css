@@ -107,6 +107,13 @@ div.avatars img:hover {cursor: help;}
     color: #000;
     background: none; !important 
     }
+.lang a img.lang_en {height: 13px;
+                     width: 592px;
+                   background: url(../image/locale_link.png) 0 13px;}
+.lang a img.lang_ru {height: 13px;
+                     width: 592px;
+                   background: url(../image/locale_link.png) 0 0;}
+
 /* Навигация */
 
 #photo, #video {margin: 20px auto; text-align:center;}
