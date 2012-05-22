@@ -38,7 +38,7 @@ function toggle() {
 </script>
 <ul class="contacts">
 <li><a href="http://vk.com/club31846712" title="Вконтакте">* We are in "Vkontakte"</a></li>
-<li><a href="https://www.facebook.com/pages/%D0%92%D0%BF%D0%BE%D0%BF%D0%BE%D0%BB%D0%B0%D0%BC/368794293148498" title="Facebook">* We are on Facebook</a></li>
+<li><a href="https://www.facebook.com/vpopolam" title="Facebook">* We are on Facebook</a></li>
 <li><a href="https://plus.google.com/u/0/b/108117631350330418130/" title="Google+">* We are on Google+</a></li>
 <li><a href="https://twitter.com/#!/vpopolam" title="Twitter">* We are on Twitter</a></li>
 </br>
