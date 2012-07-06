@@ -37,9 +37,11 @@ function toggle() {
 </script>
 <ul class="contacts">
 <li><a href="http://vk.com/vpopolamband" title="Вконтакте">* Наша группа "Вконтакте"</a></li>
-<li><a href="https://www.facebook.com/vpopolam" title="Facebook">* Наша группа в Facebook</a></li>
-<li><a href="https://plus.google.com/u/0/b/108117631350330418130/" title="Google+">* Наша группа в Google+</a></li>
-<li><a href="https://twitter.com/#!/vpopolam" title="Twitter">* Наша группа в Twitter</a></li>
+<li><a href="https://www.facebook.com/vpopolam" title="Facebook">* Мы в Facebook</a></li>
+<li><a href="https://plus.google.com/u/0/b/108117631350330418130/" title="Google+">* Мы в Google+</a></li>
+<li><a href="https://twitter.com/#!/vpopolam" title="Twitter">* Мы в Twitter</a></li>
+<li><a href="http://reverbnation.com/vpopolam" title="Reverbnation">* Мы на Reverbnation</a></li>
+<li><a href="http://youtube.com/vpopolam" title="Youtube">* Наш канал на Youtube</a></li>
 </br>
 <li>По телефону: +7 <952> 965-31-98 <Олег></li>
 </ul>

@@ -32,10 +32,13 @@ div.ywp-common-tooltip {display:none;}
             <li><a href="./audio/nishtyaki.mp3" title="Ништяки">Ништяки</a></li>
             <li><a href="./audio/dovesok.mp3" title="Довесок">Довесок</a></li>
             <li><a href="./audio/bespontovy_remix.mp3" title="Беспонтовы (ремикс) - спасибо Лексеичу!">Беспонтовы &lt;дискотека-ремикс&gt;</a></li>
+            <li><a href="./audio/vpopolam_vs_lekseich_nishtyaki.mp3" title="Ништяки (ремикс) - спасибо Лексеичу!">Ништяки &lt;Впополам vs. Lekseich&gt;</a></li>
             </br>
+            
             <li><a href="http://blocsonic.com/releases/archiveclick/slug/blocsonic-maxbloc-bsmx0032--all-tracks-320kbs-mp3-includes-pdf-booklet" title="Альбом в формате MP3">Скачать альбом в MP3 &lt;320kbps&gt;+обложка+буклет</a><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.ru"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li>
             <li><a href="http://blocsonic.com/releases/archiveclick/slug/blocsonic-maxbloc-bsmx0032--all-tracks-ogg-includes-pdf-booklet" title="Альбом в формате OGG">Скачать альбом в OGG+обложка+буклет</a><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.ru"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li> 
             <li><a href="http://blocsonic.com/releases/archiveclick/slug/blocsonic-maxbloc-bsmx0032--all-tracks-flac-includes-pdf-booklet" title="Альбом в lossless-формате FLAC (около 170 Мб)">Скачать альбом в FLAC+обложка+буклет</a><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.ru"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li> 
+            <li><a href="http://rutracker.org/forum/viewtopic.php?t=4108009" title="Торрент на Rutracker.org в lossless-формате FLAC (около 170 Мб)">Скачать альбом через торрент &lt;FLAC+обложка+буклет&gt;</a><a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.ru"><img alt="Creative Commons License" style="border-width:0; margin-left: 10px;" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a></li> 
          </ul>
 <div id="photo">
     <h1>Фотографии</h1>
@@ -49,8 +52,13 @@ div.ywp-common-tooltip {display:none;}
 
 <div id="video">
 <h1>Видеозаписи</h1>
-<a href="https://www.youtube.com/watch?v=lv0QlKiBCGE" rel="prettyPhoto" title="Песня про Наташу"><img src="photo/thumbs/youtube_natasha.jpg" alt="Из архивов группы" width="128" /></a>
-
+<a href="https://www.youtube.com/watch?v=lv0QlKiBCGE" rel="prettyPhoto" title="Песня про Наташу"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Из архивов группы" width="48" /></a>
+<a href="https://www.youtube.com/watch?v=BCt1bWbNZ7k" rel="prettyPhoto" title="Cтолбы"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Концерт в RockCity Club, Брянск" width="48" /></a>
+<a href="https://www.youtube.com/watch?v=grrBgem_eHg" rel="prettyPhoto" title="Ништяки"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Концерт в RockCity Club, Брянск" width="48" /></a>
+<a href="https://www.youtube.com/watch?v=vl9hXpPFwBY" rel="prettyPhoto" title="Не паришь"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Концерт в RockCity Club, Брянск" width="48" /></a>
+<a href="https://www.youtube.com/watch?v=hRTBOGRBMKo" rel="prettyPhoto" title="Гоп-стоп"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Концерт в RockCity Club, Брянск" width="48" /></a>
+<a href="https://www.youtube.com/watch?v=10adQvz-RRQ" rel="prettyPhoto" title="Довесок"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Концерт в RockCity Club, Брянск" width="48" /></a>
+<a href="https://www.youtube.com/watch?v=kGKTUlrZzB8" rel="prettyPhoto" title="Беспонтовы"><img src="http://dl.dropbox.com/u/939165/camera_icon.png" alt="Концерт в RockCity Club, Брянск" width="48" /></a>
 </div>
   
 <?php include("includes/footer.php"); ?>
@@ -61,7 +69,7 @@ div.ywp-common-tooltip {display:none;}
     var YWPParams = 
     {
         autoplay: false,
-        displaystate: 1,
+        displaystate: 0,
         volume: 0.5,
     };
 </script>

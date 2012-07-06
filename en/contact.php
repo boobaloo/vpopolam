@@ -37,10 +37,12 @@ function toggle() {
 } 
 </script>
 <ul class="contacts">
-<li><a href="http://vk.com/club31846712" title="Вконтакте">* We are in "Vkontakte"</a></li>
-<li><a href="https://www.facebook.com/vpopolam" title="Facebook">* We are on Facebook</a></li>
-<li><a href="https://plus.google.com/u/0/b/108117631350330418130/" title="Google+">* We are on Google+</a></li>
-<li><a href="https://twitter.com/#!/vpopolam" title="Twitter">* We are on Twitter</a></li>
+<li><a href="http://vk.com/club31846712" title="Вконтакте">* We are at "Vkontakte"</a></li>
+<li><a href="https://www.facebook.com/vpopolam" title="Facebook">* Like us at Facebook</a></li>
+<li><a href="https://plus.google.com/u/0/b/108117631350330418130/" title="Google+">* We are at Google+</a></li>
+<li><a href="https://twitter.com/vpopolam" title="Twitter">* Follow us on Twitter</a></li>
+<li><a href="http://reverbnation.com/vpopolam" title="Reverbnation">* Fan us at Reverbnation</a></li>
+<li><a href="http://youtube.com/vpopolam" title="Youtube">* Watch us on Youtube</a></li>
 </br>
 <li>By phone: +7 &lt;952&gt; 965-31-98 &lt;Oleg&gt;</li>
 </ul>

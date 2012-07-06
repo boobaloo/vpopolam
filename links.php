@@ -19,7 +19,8 @@
     <ul class="out_links">
     <li><a href="http://pletnev-records.ru/">&lt; Студия звукозаписи Юрия Плетнёва &gt;</a></li>
     <li><a href="http://bryansk.sharetribe.com/">&lt; Sharetribe - отличная доска объявлений Брянска! &gt;</a></li>
-    <li><a href="http://blocsonic.com/">&lt; blocSonic - отличный нетлейбл с кучей отличной музыки &gt;</a></li>
+    <li><a href="http://blocsonic.com/">&lt; blocSonic - классный нетлейбл с кучей отличной музыки! &gt;</a></li>
+    
 
     </ul>
   </div>
