@@ -17,7 +17,7 @@ News</title>
 <!-- Navigation -->
   
   <div id="content">
-  <h1>Some news from "Vpopolam":</h1>
+  <h1><a href="http://www.feed43.com/vpopolam.xml"><img src="http://dl.dropbox.com/u/939165/rss.png" alt="RSS Icon" title="Vpopolam's News Channel" /></a>Some news from "Vpopolam":</h1>
 <?php
 
 //Read the news.txt

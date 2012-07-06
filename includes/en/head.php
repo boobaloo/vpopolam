@@ -11,6 +11,7 @@
 <link rel="icon" type="image/png" href="../favicon.png" />
 <link rel="shortcut icon" href="../favicon.ico" />
 <link rel="image_src" href="_http://vpopolam.ru/image/stamp_new_en.png" />
+<link href="http://www.feed43.com/vpopolam.xml" rel="alternate" type="application/rss+xml" title="What's New on Vpopolam" />
 <!--[if IE]>
 <link href="../css/ie.css" rel="stylesheet" type="text/css">
 <![endif]-->

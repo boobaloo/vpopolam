@@ -17,7 +17,7 @@
 <!-- Навигация -->
   
   <div id="content">
-  <h1>Новости от "Впополам":</h1>
+  <h1><a href="http://www.feed43.com/vpopolam_ru.xml"><img src="http://dl.dropbox.com/u/939165/rss.png" alt="RSS Icon" title="Лента новостей Впополам" /></a>Новости от "Впополам":</h1>
 <?php
 
 //Read the news.txt
