@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/nojs.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all" />
+<a href="https://plus.google.com/108117631350330418130" rel="publisher" style="display:none;">Мы в Google+</a>
 <meta name="wot-verification" content="3a0622ce0a5f084d8516"/> 
 <link rel="icon" type="image/png" href="favicon.png" />
 <link rel="shortcut icon" href="favicon.ico" />

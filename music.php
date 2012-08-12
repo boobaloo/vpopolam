@@ -25,6 +25,8 @@ div.ywp-common-tooltip {display:none;}
       <div class="cover"><a href="photo/cover_ru.jpg" rel="prettyPhoto[pp_gal]" title="Обложка"><img src="./image/cover_ru.png" alt="Обложка" /></a></div>
   <h1>Музыка</h1>
          <ul class="music_content">
+            <li><a href="./audio/poydem_so_mnoy.mp3" title="Пойдём со мной">Пойдём со мной</a></li>
+            <li><a href="./audio/Stolby.mp3" title="Столбы">Столбы</a></li>
             <li><a href="./audio/ne_parish.mp3" title="Не паришь">Не паришь</a></li>
 	    <li><a href="./audio/natasha.mp3" title="Наташа">Наташа</a></li>
 	    <li><a href="./audio/gop_stop.mp3" title="Гоп-стоп">Гоп-стоп</a></li>

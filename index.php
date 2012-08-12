@@ -22,7 +22,7 @@
     <div class="avatars">
     
         <div id="description1">
-        	<div class="avatar"><img src="image/batman.jpg" title="Олег" alt="Олег Коптев" /></div>
+        	<div class="avatar"><img src="image/oleg.jpg" title="Олег" alt="Олег Коптев" /></div>
         		<div class="descr1" id="descr1">
 <span class="quit">&nbsp;</span>
 <p>Олег Коптев - басит на басу, гундосит в микрофон на заднем плане. Характер уравновешенный.</p>
@@ -30,7 +30,7 @@
      	  </div>
         
         <div id="description2">
-          <div class="avatar"><img src="image/valuev.jpg" title="Миша" alt="Миша Леонов" /></div>
+          <div class="avatar"><img src="image/misha.jpg" title="Миша" alt="Миша Леонов" /></div>
             <div class="descr2" id="descr2">
 <span class="quit">&nbsp;</span>
 <p>Михаил Леонов - главный идеолог группы. Играет на шестиструнной гитаре &lt;в зависимости от обстоятельств способен исполнять на пятиструнной&gt;. Поёт основные вокальные линии. Характер импульсивный.</p>
@@ -38,7 +38,7 @@
         </div> 
              
         <div id="description3">
-          <div class="avatar"><img src="image/rambo.jpg" title="Вова" alt="Вова Козловский" /></div>
+          <div class="avatar"><img src="image/vova.jpg" title="Вова" alt="Вова Козловский" /></div>
              <div class="descr3" id="descr3">
 <span class="quit">&nbsp;</span>
 <p>Владимир Козловский - наш единственный и неповторимый барабанщик. Способен стучать сразу в несколько барабанов одновременно, что любит делать между песнями на репетициях группы. Немного обидчив, но быстроотходчив.</p>

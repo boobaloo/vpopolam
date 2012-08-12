@@ -22,7 +22,7 @@ Mainpage</title>
     <div class="avatars">
     
         <div id="description1">
-        	<div class="avatar"><img src="../image/batman.jpg" title="Oleg" alt="Oleg Koptev" /></div>
+        	<div class="avatar"><img src="../image/oleg.jpg" title="Oleg" alt="Oleg Koptev" /></div>
         		<div class="descr1" id="descr1">
 <span class="quit">&nbsp;</span>
 <p>Oleg Koptev - bassist, sometime-vocalist.</p>
@@ -30,7 +30,7 @@ Mainpage</title>
      	  </div>
         
         <div id="description2">
-          <div class="avatar"><img src="../image/valuev.jpg" title="Misha" alt="Misha Leonov" /></div>
+          <div class="avatar"><img src="../image/misha.jpg" title="Misha" alt="Misha Leonov" /></div>
             <div class="descr2" id="descr2">
 <span class="quit">&nbsp;</span>
 <p>Mihail Leonov - leader of the band. Guitarist and vocalist.</p>
@@ -38,7 +38,7 @@ Mainpage</title>
         </div> 
              
         <div id="description3">
-          <div class="avatar"><img src="../image/rambo.jpg" title="Vova" alt="Vova Kozlovski" /></div>
+          <div class="avatar"><img src="../image/vova.jpg" title="Vova" alt="Vova Kozlovski" /></div>
              <div class="descr3" id="descr3">
 <span class="quit">&nbsp;</span>
 <p>Vladimir Kozlovski - our great drummer.</p>

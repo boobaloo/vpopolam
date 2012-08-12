@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php include("../includes/en/head.php"); ?>
-Музыка</title>
+Music</title>
 </head>
 <body class="bodystyle">
 <?php include_once("../includes/ganalytics.php") ?>
@@ -25,6 +25,8 @@ div.ywp-common-tooltip {display:none;}
             <div class="cover"><a href="../photo/cover_en.jpg" rel="prettyPhoto[pp_gal]" title="Cover"><img src="../image/cover_en.png" title="Cover" /></a></div>
   <h1>Music</h1>
          <ul class="music_content">
+            <li><a href="../audio/poydem_so_mnoy.mp3" title="Poydem so mnoy">Poydem so mnoy &lt;Come with me&gt;</a></li>
+            <li><a href="../audio/Stolby.mp3" title="Stolby">Stolby &lt;Poles&gt;</a></li>
             <li><a href="../audio/ne_parish.mp3" title="Ne parish">Ne parish &lt;You Not Stir Me Up&gt;</a></li>
             <li><a href="../audio/natasha.mp3" title="Natasha">Natasha &lt;Natasha&gt;</a></li>
             <li><a href="../audio/gop_stop.mp3" title="Gop-Stop">Gop-Stop &lt;Stick Up&gt;</a></li>
